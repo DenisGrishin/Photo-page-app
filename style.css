@@ -5,7 +5,10 @@ html {
 body {
     margin: 0px;
     background: url(background1.jpg);
-    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 
 html body div header main footer img input ul li h1 {
@@ -24,17 +27,6 @@ html body div header main footer img input ul li h1 {
     src: url(Nautilus.otf);
     /* Путь к файлу со шрифтом */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -136,20 +128,6 @@ html body div header main footer img input ul li h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*End header*/
 
 
@@ -215,9 +193,8 @@ html body div header main footer img input ul li h1 {
 
 .container-button {
     width: 18%;
-    padding: 0 7px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .button-serch {
@@ -238,7 +215,7 @@ html body div header main footer img input ul li h1 {
 .button-upl-img-container {}
 
 .button-upl-img {
-    width: 175px;
+    width: 130px;
     height: 30px;
     font-size: 18px;
     color: rgb(255, 255, 255);
@@ -252,12 +229,6 @@ html body div header main footer img input ul li h1 {
     cursor: pointer;
     background: #fc3;
 }
-
-
-
-
-
-
 
 
 
@@ -313,7 +284,8 @@ html body div header main footer img input ul li h1 {
 .text-social-iteam {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    
 }
 
 .container-social-iteam {
