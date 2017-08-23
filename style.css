@@ -8,7 +8,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-
 }
 
 html body div header main footer img input ul li h1 {
@@ -20,16 +19,12 @@ html body div header main footer img input ul li h1 {
     // padding: 0px 420px;
 }
 
-
 @font-face {
     font-family: Nautilus;
     /* Имя шрифта */
     src: url(Nautilus.otf);
     /* Путь к файлу со шрифтом */
 }
-
-
-
 
 
 /*start header*/
@@ -112,7 +107,6 @@ html body div header main footer img input ul li h1 {
     box-shadow: inset 0px 0px 20px 0px #4933ff;
 }
 
-
 .menu-item {
     display: flex;
     flex-direction: column;
@@ -167,8 +161,6 @@ html body div header main footer img input ul li h1 {
     justify-content: flex-end;
 }
 
-
-
 .search-input-container {
     display: flex;
     flex-direction: row;
@@ -209,7 +201,7 @@ html body div header main footer img input ul li h1 {
 
 .button-serch:hover {
     cursor: pointer;
-    background: #fc3;
+    background: #c33737;
 }
 
 .button-upl-img-container {}
@@ -227,10 +219,8 @@ html body div header main footer img input ul li h1 {
 
 .button-upl-img:hover {
     cursor: pointer;
-    background: #fc3;
+    background: #c33737;
 }
-
-
 
 
 /*end main-header*/
@@ -242,8 +232,8 @@ html body div header main footer img input ul li h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 40px 0 ;
-    color:#ebe3f3;
+    padding: 40px 0;
+    color: #ebe3f3;
 }
 
 .posts {
@@ -261,8 +251,6 @@ html body div header main footer img input ul li h1 {
     width: 100%;
 }
 
-
-
 .container-text-post {
     display: flex;
     flex-direction: row;
@@ -273,11 +261,9 @@ html body div header main footer img input ul li h1 {
 .button-Favorites {}
 
 .line-hr {
-    size:1px;
-    color:red;
-
+    size: 1px;
+    color: red;
 }
-
 
 .text-post {}
 
@@ -285,7 +271,6 @@ html body div header main footer img input ul li h1 {
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 .container-social-iteam {
@@ -315,8 +300,101 @@ html body div header main footer img input ul li h1 {
 }
 
 
+/*footer*/
 
 .site-footer {
     display: flex;
-    height: 100px;
+    width: 55%;
+}
+
+.container-footer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: #bf9cde;
+}
+
+.iteam-footer {
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #bf9cde;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    color: black;
+}
+.input-container {
+  padding: 20px 0;
+}
+.input-footer {
+    list-style: none;
+    border: 2px solid #9e63d4;
+    border-radius: 7px;
+    height: 20px;
+}
+
+.button-input-footer {
+    height: 24px;
+    border-radius: 4px;
+    border: 8px;
+    background: #4933ff;
+}
+
+.button-input-footer:hover {
+    background: #c33737;
+}
+
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.social li {
+    list-style: none;
+    border: 2px solid #9e63d4;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+
+.social li a {
+    color: #EDEFF1;
+}
+
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
 }
