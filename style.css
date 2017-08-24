@@ -169,9 +169,9 @@ html body div header main footer img input ul li h1 {
     width: 86%;
     border: none rgba(202, 181, 181, 0.92);
     padding: 0px 7px;
-    -webkit-border-radius: 6px; //закругление углов (Google Chrome)
-    -moz-border-radius: 6px; //закругление углов (FireFox)
-    -khtml-border-radius: 6px; //закругление углов (Safari)
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -khtml-border-radius: 6px;
 }
 
 .search-input {
@@ -181,6 +181,10 @@ html body div header main footer img input ul li h1 {
     width: 82%;
     height: 30px;
     vertical-align: middle;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -khtml-border-radius: 10px 0 0 10px;
 }
 
 .container-button {
@@ -195,7 +199,10 @@ html body div header main footer img input ul li h1 {
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-weight: 700;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -khtml-border-radius: 0px 10px 10px 0px;
     background: #4933ff;
 }
 
@@ -207,13 +214,15 @@ html body div header main footer img input ul li h1 {
 .button-upl-img-container {}
 
 .button-upl-img {
-    width: 130px;
+    width: 140px;
     height: 30px;
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-weight: 700;
-    border-radius: 25px 5px 5px 25px;
-    ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
     background: #4933ff;
 }
 
@@ -328,9 +337,11 @@ html body div header main footer img input ul li h1 {
     text-decoration: underline;
     color: black;
 }
+
 .input-container {
-  padding: 20px 0;
+    padding: 20px 0;
 }
+
 .input-footer {
     list-style: none;
     border: 2px solid #9e63d4;
