@@ -7,7 +7,9 @@ html {
 
 body {
     margin: 0px;
-    background: url(background1.jpg);
+ 
+
+background:linear-gradient(322deg, #ff7c00 24%, #290a58 59%);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
