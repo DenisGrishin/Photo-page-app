@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-
-html {
-    overflow-x: hidden;
-}
-
 body {
     margin: 0px;
- 
 
-background:linear-gradient(322deg, #ff7c00 24%, #290a58 59%);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+
+    background: linear-gradient(to bottom right, #290a58 27%, #ff7c00 120%);
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -42,6 +34,13 @@ h6 {
     src: url(Nautilus.otf);
     /* Путь к файлу со шрифтом */
 }
+
+
+
+
+
+
+
 
 
 /*start header*/
@@ -77,9 +76,11 @@ h6 {
     font-weight: 600;
     color: #cfb6e6;
 }
+
 .site-name:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 .text-cage {
     color: #de8300;
     padding: 0 20px 0 0;
@@ -140,6 +141,14 @@ h6 {
 }
 
 
+
+
+
+
+
+
+
+
 /*End header*/
 
 
@@ -184,7 +193,6 @@ h6 {
     justify-content: center;
     align-items: center;
     width: 86%;
-    border: none rgba(202, 181, 181, 0.92);
     padding: 0px 7px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -193,11 +201,8 @@ h6 {
 
 .search-input {
     border: none;
-    outline: none;
-    -webkit-appearance: none;
     width: 82%;
     height: 30px;
-    vertical-align: middle;
     border-radius: 10px 0 0 10px;
     -webkit-border-radius: 10px 0 0 10px;
     -moz-border-radius: 10px 0 0 10px;
@@ -211,44 +216,51 @@ h6 {
 }
 
 .button-serch {
-    width: 80px;
+    width: 83px;
     height: 30px;
-    font-size: 18px;
+    font-size: 15px;
+    text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: 700;
     border-radius: 0px 10px 10px 0px;
     -webkit-border-radius: 0px 10px 10px 0px;
     -moz-border-radius: 0px 10px 10px 0px;
     -khtml-border-radius: 0px 10px 10px 0px;
-    background: #4933ff;
+    background-image: linear-gradient(to right, #5947e8 0%, #c65e18 51%, #290a58 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
 }
 
 .button-serch:hover {
     cursor: pointer;
-    background: #c33737;
-    box-shadow: inset 0px 0px 20px 0px #4933ff;
+    background-position: right center;
+    ;
 }
-
-.button-upl-img-container {}
 
 .button-upl-img {
     width: 140px;
     height: 30px;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -khtml-border-radius: 10px;
-    background: #4933ff;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #5947e8 0%, #c65e18 51%, #290a58 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
 }
 
 .button-upl-img:hover {
     cursor: pointer;
-    background: #c33737;
-    box-shadow: inset 0px 0px 20px 0px #4933ff;
+    background-position: right center;
 }
+
+
 
 
 /*end main-header*/
@@ -286,7 +298,7 @@ h6 {
     align-items: center;
 }
 
-.button-Favorites {}
+
 
 .line-hr {
     size: 1px;
@@ -337,23 +349,39 @@ h6 {
     width: 80px;
     height: 30px;
     border-radius: 4px;
-    border: 8px;
-    background: #4933ff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
     font-weight: 500;
     font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-image: linear-gradient(to right, #5947e8 0%, #c65e18 51%, #290a58 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
 }
 
+
 .submit-more:hover {
-    background: #c33737;
-    box-shadow: inset 0px 0px 20px 0px #4933ff;
+    cursor: pointer;
+    background-position: right center
 }
+
+
+
+
+
+
+
+
 
 
 /*footer*/
 
 .site-footer {
     display: flex;
-    width: 55%;
+    width: 53%;
 }
 
 .container-footer {
@@ -384,21 +412,29 @@ h6 {
 
 .input-footer {
     list-style: none;
-    border: 2px solid #9e63d4;
     border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -khtml-border-radius: 7px;
     height: 20px;
 }
 
 .button-input-footer {
     height: 24px;
     border-radius: 4px;
-    border: 8px;
-    background: #4933ff;
+    color: rgb(255, 255, 255);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background-image: linear-gradient(to right, #5947e8 0%, #c65e18 51%, #290a58 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
 }
 
 .button-input-footer:hover {
-    background: #c33737;
-    box-shadow: inset 0px 0px 20px 0px #4933ff;
+    cursor: pointer;
+    background-position: right center
 }
 
 .social {
@@ -442,11 +478,12 @@ h6 {
 
 .social li:hover {
     border: 2px solid #2c3e50;
-    background: #2c3e50;
+    // background: #2c3e50;
+    background-image: linear-gradient(to right, #5947e8 0%, #c65e18 51%, #290a58 100%);
 }
 
 .social li a i {
     font-size: 16px;
     margin: 0 0 0 5px;
-    color: #EDEFF1 !important;
+    color: #EDEFF1;
 }
