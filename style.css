@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 body {
     margin: 0px;
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(27%, #290a58), color-stop(120%, #f28383));
-    background: linear-gradient(to bottom right, #263880 27%, #f28383 120%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(27%, #290a58), color-stop(120%, #d54040));
+    background: linear-gradient(to bottom right, #263880 27%, #d54040 120%);
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
